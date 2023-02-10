@@ -1,0 +1,34 @@
+h1{text-align: center;}
+body{background-color: #7FFFD5;}
+
+.align{text-align: center;
+font-size: 25px;
+display: none;}
+
+
+/*-----Media for small device*-----------------/ 
+@media (min-width:425px ){
+	body{background-color: #CA3142;}
+	.first{display:block;}}
+
+/*-------------Media for medium device------*/ 
+@media (min-width:768px ){body{
+	background-color: #75FBFD;}
+.first{display: none;}
+.second{display: block;}
+
+/*----Media for large device---------------*/ 
+@media (min-width:1024px ){body{
+	background-color: #B1882F;}
+.first{display: none;}
+.second{display: none;}
+.third{display:block;}}
+
+/*----Media for extra-large device------*/ 
+@media (min-width:1440px ){body{
+	background-color: #208B21;}
+.first{display: none;}
+.second{display: none;}
+.third{display: none;}
+.forth{display: block;}}
+
